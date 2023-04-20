@@ -1,9 +1,9 @@
 # Nibav Lift configurator
 Configure Your lift and Get Quote
 
-[![N|Solid](https://www.nibavlifts.com/wp-content/uploads/logo-nibav.svg)](https://www.nibavlifts.com/contact-us/)
+![task-logo](./images/logo.png "Nibav logo.png" )
 
-Nibav config is work in progress version,
+Nibav config is work in progress version
 Rendered image based Configurator using Keyshot.
 
 
@@ -23,6 +23,10 @@ And of course Dillinger itself is open source with a [public repository][dill]
 
 ## Installation
 
-[Customize Your Configurator](/GunaConfigurator\GunaConfigurator\keyshot-configurator.html)	
+
+Run Nibav Configurator [Customize Your Configurator](/GunaConfigurator\keyshot-configurator.html) WIP version
+
+
+Thanks,
 
 

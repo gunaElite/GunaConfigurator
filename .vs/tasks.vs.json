@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-logo",
+      "appliesTo": "images/logo.png",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-logo",
+      "appliesTo": "images/logo.png",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-New Nibav Logo_png1",
+      "appliesTo": "images/New Nibav Logo_png1.png",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-logo",
+      "appliesTo": "images/logo.png",
+      "type": "launch"
+    }
+  ]
+}
