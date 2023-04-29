@@ -20,6 +20,16 @@
       "taskLabel": "task-logo",
       "appliesTo": "images/logo.png",
       "type": "launch"
+    },
+    {
+      "taskLabel": "task-GunaConfigurator",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-GunaConfigurator",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }

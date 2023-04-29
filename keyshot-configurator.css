@@ -21,7 +21,7 @@
 .ksfont-zoom-to-100::before { content: "\e0fc"; }
 
 :root {
-    --color-panel-background: rgba(50,50,50,0.25);
+    --color-panel-background: rgba(146, 53, 53, 0.25);
     --color-panel-border: rgba(85,85,85,1);
     --color-title-text: rgba(255,255,255,1);
     --color-title-background: rgba(80,80,80,0.3);
@@ -39,8 +39,8 @@
     --color-thumbnail-background-hover: rgba(255,255,255,0.1);
     --color-thumbnail-border-hover: rgba(0,153,255,1);
     --color-window-background: rgba(97,97,97,1);
-    --size-titles-font: 11;
-    --size-thumbnail-font: 9;
+    --size-titles-font: 3;
+    --size-thumbnail-font: 1;
 }
 
 html, body {
@@ -82,21 +82,21 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 40px;
-    height: 100%;
+    width: 30px;
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content:center;
     background: var(--color-panel-background);
 }
 
 .toolbarbutton {
     font-family: "ks-configurator-icons";
-    font-size: 20pt;
+    font-size: 10pt;
     user-select: none;
     -webkit-user-select: none;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     color: #8A8A8A;
 }
 .toolbarbutton:hover {
@@ -110,7 +110,7 @@ body {
     position: absolute;
     display: flex;
     background: var(--color-panel-background);
-    --flowwidget-first-size: 50;
+    --flowwidget-first-size: 100;
     /* This is set to "100 - flowwidget-first-size". It looks like Firefox doesn't like calc() in flex: values (observed in version 56) */
     --flowwidget-second-size: 50;
 }
@@ -139,7 +139,7 @@ body {
 }
 
 .flowwidgetbody {
-    display: flex;
+    display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-start;
